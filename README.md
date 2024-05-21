@@ -1,8 +1,33 @@
-# IRiptables
+# Drop Iran Domains Script in Iptables 
 
-This bash script is used to drop all Iran domains output 
-after running this script the server can not send request to IR domains 
+This bash script is used to block all requests to Iran domains on a server. By running this script, the server will not be able to send requests to any Iran domains.
 
-If you are having VPN server and you dont want your Server to access IRAN Domains you can use this script 
+## Usage
 
+#### Clone this repository:
 
+```
+git clone https://github.com/pedinil/IRiptables.git
+```
+
+#### Run the script:
+
+```
+cd drop-iran-domains
+chmod +x IRDomainsDrop.sh
+./IRDomainsDrop.sh
+```
+
+Confirm that the script has been successfully executed and that the server can no longer send requests to Iran domains.
+
+### Note
+
+If you are running a VPN server and you do not want your server to access Iran domains, this script can be useful for you.
+
+Please use this script responsibly and ensure that it aligns with your organization's policies and regulations.
+
+### License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+I hope this helps! Let me know if you need further assistance.
