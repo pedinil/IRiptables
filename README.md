@@ -17,7 +17,10 @@ cd drop-iran-domains
 chmod +x IRDomainsDrop.sh
 ./IRDomainsDrop.sh
 ```
-
+#### Run the script directly in the server :
+```
+sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/pedinil/IRiptables/main/IRDomainsDrop.sh)"
+```
 Confirm that the script has been successfully executed and that the server can no longer send requests to Iran domains.
 
 ### Note
